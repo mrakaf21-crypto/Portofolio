@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Raka</title>
+
+    <!-- GOOGLE FONT (POPPINS) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Raka Faqih – Portofolio</h1>
+
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#skill">Skill</a>
+            <a href="#project">Project</a>
+            <a href="#kontak">Kontak</a>
+            <button id="darkToggle">Dark Mode</button>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero fade">
+        <img src="foto-raka.jpeg" alt="Foto Raka" class="foto-profil">
+        <h2>Halo, Saya Raka!</h2>
+        <p>Mahasiswa IPB – Belajar Web Development, IoT, dan Mikrokontroler.</p>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="fade">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah mahasiswa yang sedang belajar pemrograman web, IoT, dan teknologi komputer.
+            Saya suka membuat proyek seperti otomasi alat, sistem monitoring, dan website modern.
+        </p>
+    </section>
+
+    <!-- SKILL -->
+    <section id="skill" class="fade">
+        <h2>Skill</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Arduino & Mikrokontroler</li>
+            <li>IoT & Sensor</li>
+            <li>Networking (Cisco, MikroTik)</li>
+        </ul>
+    </section>
+
+    <!-- PROJECT -->
+    <section id="project" class="fade">
+        <h2>Project yang Pernah Saya Buat</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>Alat Pakan Ikan Otomatis</h3>
+                <p>Menggunakan Arduino, RTC, dan Servo.</p>
+            </div>
+
+            <div class="card">
+                <h3>Smart Fan Boiler</h3>
+                <p>Kipas exhaust otomatis pakai sensor suhu.</p>
+            </div>
+
+            <div class="card">
+                <h3>Monitoring Suhu & Kelembaban</h3>
+                <p>Menggunakan DHT22 + ESP32.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="fade">
+        <h2>Hubungi Saya</h2>
+
+        <div class="kontak-btn">
+            <a href="https://wa.me/6281224216611" target="_blank" class="wa-btn">WhatsApp Saya</a>
+            <a href="mailto:rakafq@gmail.com" class="email-btn">Email Saya</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Raka Faqih - Semua hak dilindungi.</p>
+    </footer>
+    <button id="toTop">↑</button>
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
